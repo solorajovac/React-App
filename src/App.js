@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import BsNavBar from './components/BsNavBar';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>Mi primera App</h1>
-    </div>
+  <BsNavBar/>
+
   );
 }
 
